@@ -49,6 +49,7 @@
     /* touch devices keep normal cursor */
     @media (hover: hover) and (pointer: fine) {
       body { cursor: none; }
+      a, button { cursor: none; }
     }
 
     a { color: inherit; text-decoration: none; }
@@ -830,29 +831,6 @@
     <h2 class="section-title reveal">Projects.</h2>
     <div class="projects-grid">
 
-      <!-- Finance Tracker -->
-      <div class="project-card reveal">
-        <div class="project-type">Full Stack &middot; In Progress</div>
-        <div class="project-name">Finance Tracker</div>
-        <div class="project-desc">
-          Personal finance management app with JWT authentication,
-          expense tracking, and interactive charts. Demonstrates real
-          data handling, visualization and production‑grade deployment.
-        </div>
-        <div class="project-badge">
-          <span class="badge-dot"></span>
-          In development
-        </div>
-        <div class="project-footer">
-          <div class="tags">
-            <span class="tag">React</span>
-            <span class="tag">Node.js</span>
-            <span class="tag">PostgreSQL</span>
-          </div>
-          <span class="project-link-disabled">Soon ↗</span>
-        </div>
-      </div>
-
       <!-- E-commerce -->
       <div class="project-card reveal">
         <div class="project-type">Full Stack &middot; In Progress</div>
@@ -872,7 +850,7 @@
             <span class="tag">MongoDB</span>
             <span class="tag">Express</span>
           </div>
-          <span class="project-link-disabled">Soon ↗</span>
+          <a href="https://github.com/AlexandreRodriguesStrapasson/E-commerce" target="_blank" rel="noopener" class="btn btn-ghost" style="font-size:0.62rem;padding:0.35rem 0.9rem">GitHub ↗</a>
         </div>
       </div>
 
